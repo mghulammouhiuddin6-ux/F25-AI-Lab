@@ -1,0 +1,6 @@
+A*: path=['S', 'A', 'C', 'G'], returned_cost=6, verified_cost=6, expanded=['S', 'A', 'C'], count=3
+trace (node,g,h,f): [('S', 0, 5, 5), ('A', 1, 4, 5), ('C', 3, 2, 5), ('G', 6, 0, 6)]
+UCS: path=['S', 'A', 'C', 'G'], returned_cost=6, verified_cost=6, expanded=['S', 'A', 'C', 'B'], count=4
+trace (node,g,h,f): [('S', 0, 0, 0), ('A', 1, 0, 1), ('C', 3, 0, 3), ('B', 4, 0, 4), ('G', 6, 0, 6)]
+Overestimate h(C)=10: path=['S', 'B', 'G'], returned_cost=9, verified_cost=9, expanded=['S', 'A', 'B'], count=3
+trace (node,g,h,f): [('S', 0, 5, 5), ('A', 1, 4, 5), ('B', 4, 4, 8), ('G', 9, 0, 9)]
