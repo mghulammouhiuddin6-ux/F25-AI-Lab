@@ -1,0 +1,5 @@
+case | expected_rule | actual_rule | probability_result | reason
+pass | Review | Review | Review | all explicit conditions pass
+eligibility_failure | Hold | Hold | Review | eligibility condition is false
+identity_failure | Hold | Hold | Review | identity verification condition is false
+threshold_boundary | Review | Review | Review | score and probability equal their inclusive thresholds
