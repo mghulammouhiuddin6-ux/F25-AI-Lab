@@ -1,0 +1,2 @@
+Alpha-beta value: 5
+Evaluated leaves: 6

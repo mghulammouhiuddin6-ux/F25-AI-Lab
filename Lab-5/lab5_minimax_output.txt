@@ -1,0 +1,2 @@
+Minimax value: 5
+Evaluated leaves: 8
