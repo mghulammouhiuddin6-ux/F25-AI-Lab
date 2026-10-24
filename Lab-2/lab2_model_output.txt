@@ -1,0 +1,7 @@
+step | previous | percept | target | command
+1 None (29, True) COOL SEND
+2 COOL (29, True) COOL NO COMMAND
+3 COOL (26, True) IDLE SEND
+4 IDLE (20, True) IDLE NO COMMAND
+5 IDLE (19, True) WARM SEND
+6 WARM (29, False) ECO SEND

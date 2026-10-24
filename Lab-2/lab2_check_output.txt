@@ -1,0 +1,6 @@
+PASS test 1: percept=(29, True), target=COOL, command=True
+PASS test 2: percept=(29, True), target=COOL, command=False
+PASS test 3: percept=(26, True), target=IDLE, command=True
+PASS test 4: percept=(20, True), target=IDLE, command=False
+PASS test 5: percept=(19, True), target=WARM, command=True
+PASS test 6: percept=(29, False), target=ECO, command=True
