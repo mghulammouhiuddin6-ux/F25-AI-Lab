@@ -1,0 +1,2 @@
+BFS path: ['A', 'C', 'G'] hops: 2 cost: 12
+UCS path: ['A', 'B', 'E', 'G'] cost: 3 independent sum: 3 processed: ['A', 'B', 'E', 'G']

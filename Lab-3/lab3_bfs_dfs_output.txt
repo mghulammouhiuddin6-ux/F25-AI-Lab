@@ -1,0 +1,2 @@
+BFS: path=['A', 'B', 'E', 'G']; visit_order=['A', 'B', 'C', 'D', 'E', 'F', 'G']
+DFS: path=['A', 'B', 'E', 'G']; visit_order=['A', 'B', 'D', 'E', 'G']

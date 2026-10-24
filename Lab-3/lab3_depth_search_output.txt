@@ -1,0 +1,5 @@
+DLS limit=1: ('CUTOFF', None)
+DLS limit=2: ('CUTOFF', None)
+DLS limit=3: ('FOUND', ['A', 'B', 'E', 'G'])
+DLS limit=4: ('FOUND', ['A', 'B', 'E', 'G'])
+IDDFS path: ['A', 'B', 'E', 'G'] | attempts: [(0, 'CUTOFF', None), (1, 'CUTOFF', None), (2, 'CUTOFF', None), (3, 'FOUND', ['A', 'B', 'E', 'G'])]
