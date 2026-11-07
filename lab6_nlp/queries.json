@@ -1,0 +1,62 @@
+[
+  {
+    "query": "What evidence is needed for an illness extension?",
+    "doc": "late",
+    "evidence": "Illness extensions require medical evidence before the deadline.",
+    "split": "dev"
+  },
+  {
+    "query": "How can I regain access after forgetting my password?",
+    "doc": "password",
+    "evidence": "Reset a forgotten password using the recovery link on the login page.",
+    "split": "dev"
+  },
+  {
+    "query": "Where must coursework be uploaded and in what format?",
+    "doc": "assignment",
+    "evidence": "Assignments are uploaded through the learning portal. Submit the final file as a PDF.",
+    "split": "dev"
+  },
+  {
+    "query": "Are contractors allowed to work remotely?",
+    "doc": "contractor",
+    "evidence": "Contractors can work remotely only if the signed contract permits it.",
+    "split": "dev"
+  },
+  {
+    "query": "What should I do when my printer outputs empty pages?",
+    "doc": "printer",
+    "evidence": "For blank printer pages, check ink levels and run the cleaning utility. Print a test page afterwards.",
+    "split": "test"
+  },
+  {
+    "query": "How do I recover my login if I cannot remember the password?",
+    "doc": "password",
+    "evidence": "Reset a forgotten password using the recovery link on the login page.",
+    "split": "test"
+  },
+  {
+    "query": "How should I hand in my final coursework file?",
+    "doc": "assignment",
+    "evidence": "Assignments are uploaded through the learning portal. Submit the final file as a PDF.",
+    "split": "test"
+  },
+  {
+    "query": "What proof is needed when sickness affects a submission?",
+    "doc": "late",
+    "evidence": "Illness extensions require medical evidence before the deadline.",
+    "split": "test"
+  },
+  {
+    "query": "What are tomorrow's international flight ticket prices?",
+    "doc": null,
+    "evidence": null,
+    "split": "test"
+  },
+  {
+    "query": "Who won yesterday's football match?",
+    "doc": null,
+    "evidence": null,
+    "split": "test"
+  }
+]

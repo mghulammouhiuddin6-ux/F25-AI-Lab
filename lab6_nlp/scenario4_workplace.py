@@ -1,0 +1,6 @@
+from lab6_search import Retriever, show_hits
+records = [
+ {"id":"remote:staff","source":"workplace.txt","audience":"employee","text":"Employees may request remote work with manager approval."},
+ {"id":"remote:contractor","source":"workplace.txt","audience":"contractor","text":"Contractors may work remotely only when the signed contract explicitly permits remote work."}]
+engine=Retriever(records)
+show_hits(engine.search("remote work",k=1,filters={"audience":"contractor"}))
